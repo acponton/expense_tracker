@@ -9,8 +9,6 @@ All the information is saved in a SQLite database file, which the program create
 
 This project helped me understand how Python and SQL work together and how to design a small but functional database‑driven application.
 
-[Software Demo Video](http://youtube.link.goes.here)
-
 # Relational Database
 
 This project uses SQLite, which is a simple relational database stored in a single file. It works well for small projects and is easy to use with Python.
@@ -18,15 +16,15 @@ This project uses SQLite, which is a simple relational database stored in a sing
 # Database Structure
 The database has one table called expenses, which stores all the information the program needs:
 
-id – a unique number for each expense
+* id – a unique number for each expense
 
-amount – how much money was spent
+* amount – how much money was spent
 
-category – the type of expense (Food, Rent, etc.)
+* category – the type of expense (Food, Rent, etc.)
 
-date – the date of the expense in YYYY-MM-DD format
+* date – the date of the expense in YYYY-MM-DD format
 
-note – an optional description
+* note – an optional description
 
 This structure makes it easy to run SQL queries like totals, averages, and filtering by date.
 
@@ -34,21 +32,21 @@ This structure makes it easy to run SQL queries like totals, averages, and filte
 
 I used the following tools to build this project:
 
-Python 3
+* Python 3
 
-SQLite (through Python’s built‑in sqlite3 library)
+* SQLite (through Python’s built‑in sqlite3 library)
 
-Visual Studio Code as my code editor
+* Visual Studio Code as my code editor
 
-Windows PowerShell to run the program
+* Windows PowerShell to run the program
 
 # Programming Language & Libraries
 
-Python was used to write the program
+* Python was used to write the program
 
-sqlite3 was used to connect to the database and run SQL commands
+* sqlite3 was used to connect to the database and run SQL commands
 
-datetime was used to check and format dates
+* datetime was used to check and format dates
 
 No extra libraries were needed.
 
